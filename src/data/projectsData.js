@@ -14,8 +14,8 @@ export const projectsData = [
         projectName: 'Next Shop',
         projectDesc: 'Next JS의 예제 프로젝트로 쇼핑몰 홈페이지를 제작하였다.',
         tags: ['React', 'Next JS', 'Tailwind CSS'],
-        code: '',
-        demo: '',
+        code: 'https://github.com/C0mm4/next-ecommerce',
+        demo: 'https://nextshop-git-main-c0mm4.vercel.app/',
         image: six
     },
     {
@@ -23,8 +23,8 @@ export const projectsData = [
         projectName: 'Bicycle Recommand',
         projectDesc: '캡스톤 프로젝트의 일환으로 자전거를 추천하고, 각 판매 페이지를 연결해주는 하나의 페이지를 제작하였다.',
         tags: ['React', 'Next JS', 'Tailwind CSS', 'Selenium'],
-        code: '',
-        demo: '',
+        code: 'https://github.com/C0mm4/bicycle',
+        demo: 'https://bicycle-c0mm4.vercel.app/',
         image: seven
     },
     {
@@ -32,7 +32,7 @@ export const projectsData = [
         projectName: 'Restaurant Recommand',
         projectDesc: '서울시의 있는 식당을 간단한 키워드를 검색받는 것으로 추천하는 페이지를 제작하였다.',
         tags: ['React', 'Next JS', 'Tailwind CSS', 'Selenium', 'Python'],
-        code: '',
+        code: 'https://github.com/C0mm4/Restaurants-Recommand',
         demo: '',
         image: eight
     }
