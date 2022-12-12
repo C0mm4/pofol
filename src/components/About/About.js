@@ -1,6 +1,6 @@
 import { Container } from '@material-ui/core';
 import React, { useContext } from 'react';
-import codings from '../../assets/lottie/mollu.json';
+import codings from '../../assets/lottie/doomsayer.json';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { aboutData } from '../../data/aboutData';
 import styles from '../../styles/about.module.css';
@@ -31,8 +31,10 @@ function About() {
                         <p style={{ color: theme.tertiary }}>{aboutData.description1}<br /><br />{aboutData.description2}<br/> <br/>{aboutData.description3}</p>
                     </div>
                     <div className={styles.aboutAnimation}>
-                        <img/>
-                        <AnimationLottie animationPath={codings} />
+                        <div>
+                            <img class = {styles.radius_img} src = "/doomsayer.jpg" width={500}/>
+                        </div>
+                        
                     </div>
                     <div className={landstyles.lclContent}>
                         {socialsData.github && (

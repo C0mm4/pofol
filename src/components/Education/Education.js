@@ -1,6 +1,6 @@
 import { Container } from '@material-ui/core';
 import React, { useContext } from 'react';
-import education from '../../assets/lottie/education.json';
+import education from '../../assets/lottie/mollu.json';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { educationData } from '../../data/educationData';
 import styles from '../../styles/education.module.css';

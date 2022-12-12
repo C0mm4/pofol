@@ -142,3 +142,7 @@
     width: 200px;
   }
 }
+
+.radius_img {
+  border-radius : 50%;
+}
